@@ -35,6 +35,6 @@ while True:
             break
 
 
-print("\nQuiz Ended!")
-print("Final Score: " + str(score))
+print("\n\033[93mQuiz Ended!\033[0m")
+print(f"\033[93mFinal Score: {score}\033[0m")
 # -------------------------- Quiz End -----------------------------
